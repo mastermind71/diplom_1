@@ -24,6 +24,8 @@ public class BunTest {
                 {"Еще булка", 0F},
                 {"Еще одна булка", 0.1F},
                 {"Булочка", 999999999999F},
+                {"maybe bulka na angliiskom!@#$", -1231231F},
+                {"l", 12F},
         };
     }
     @Test
