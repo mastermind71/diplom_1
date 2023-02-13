@@ -30,8 +30,8 @@ public class BurgerTest {
     @Test
     public void ingredientAddTest(){
         burger.addIngredient(ingredient1);
-        Assert.assertFalse("EEEE", burger.ingredients.isEmpty());
-        Assert.assertTrue("AAA", burger.ingredients.contains(ingredient1));
+        Assert.assertFalse("пустой список ингридиентов", burger.ingredients.isEmpty());
+        Assert.assertTrue("данный элемент не содержится в списке", burger.ingredients.contains(ingredient1));
     }
     @Test
     public void moveIngredientTest(){
